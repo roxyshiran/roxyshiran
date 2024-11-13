@@ -3,8 +3,25 @@
 
 Dedicated and detail-oriented professional with a demonstrated history of fostering cross-functional collaboration and adeptly navigating complex scenarios. As a Canadian, I possess exceptional communication skills and a keen aptitude for acquiring new languages.
 
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=roxyshiran)](https://github.com/roxyshiran/github-readme-stats)
+
+[
+](https://github.com/your-username/your-repo-name/blob/main/path/to/your-image.png)
+
+
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/https://www.linkedin.com/in/m-sc-roksana-shiran-21188928a//)  
+
+
+
+
+
+
+
+
+
+
+
 # 👩🏽‍🏫 Education  
 - University of Bern                                                                   2023 – Pre   
 PhD. Health Science Human  
