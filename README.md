@@ -9,17 +9,19 @@ Dedicated and detail-oriented professional with a demonstrated history of foster
 
 
 # 👩🏽‍🏫 Education  
-- University of Bern                                                                   2023 – Pre   
-PhD. Health Science Human  
+- University of Bern  PhD.
+  Health Science Human   2023 – Pre 
+- University of Islamic Azad of Karaj
+   MA. Sports Science 2011 – 2014 
 
-- University of Islamic Azad of Karaj                                                2011 – 2014 
-MA. Sports Science 
 
-- University of Islamic Azad of Shoushtar                               2009 – 2011 
-Bachelor. Sports Science 
+- University of Islamic Azad of ShoushtarBachelor.
+  Sports Science 2009 – 2011 
 
-- MBA in management                                                                           2024 
-IIMA – IIM Ahmedabad
+
+- MBA in management
+ IIMA – IIM Ahmedabad2024 
+
 ## 👩🏽‍💻 Work Experience
  
 
