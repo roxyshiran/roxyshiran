@@ -1,24 +1,35 @@
-{
-  "name": "my-todolist",
-  "version": "0.1.0",
-  "dependencies": {
-    "body-parser": "^1.16.0",
-    "ejs": "^2.5.5",
-    "express": "^4.14.0",
-    "method-override": "^3.0.0",
-    "sanitizer": "^0.1.3"
-  },
-  "scripts": {
-    "start": "node app.js",
-    "test": "mocha --recursive --exit",
-    "sonar": "sonar-scanner"
-  },
-  "author": "Roksana ",
-  "description": "Basic to do list exercise",
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^6.2.1",
-    "nyc": "^14.1.1",
-    "supertest": "^4.0.2"
-  }
+pipeline{
+    agent { label 'dev-server' }
+
+    stages{
+        stage("Code Clone"){
+            steps{
+                echo "Code Clone Stage"
+                git url: "https://github.com/LondheShubham153/node-todo-cicd.git", branch: "master"
+            }
+        }
+        stage("Code Build & Test"){
+            steps{
+                echo "Code Build Stage"
+                sh "docker build -t node-app ."
+            }
+        }
+        stage("Push To DockerHub"){
+            steps{
+                withCredentials([usernamePassword(
+                    credentialsId:"dockerHubCreds",
+                    usernameVariable:"dockerHubUser", 
+                    passwordVariable:"dockerHubPass")]){
+                sh 'echo $dockerHubPass | docker login -u $dockerHubUser --password-stdin'
+                sh "docker image tag node-app:latest ${env.dockerHubUser}/node-app:latest"
+                sh "docker push ${env.dockerHubUser}/node-app:latest"
+                }
+            }
+        }
+        stage("Deploy"){
+            steps{
+                sh "docker compose down && docker compose up -d --build"
+            }
+        }
+    }
 }
