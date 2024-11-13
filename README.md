@@ -13,7 +13,7 @@
     "test": "mocha --recursive --exit",
     "sonar": "sonar-scanner"
   },
-  "author": "riaan@entersekt.com",
+  "author": "Roksana ",
   "description": "Basic to do list exercise",
   "devDependencies": {
     "chai": "^4.2.0",
