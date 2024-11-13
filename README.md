@@ -3,6 +3,8 @@
 
 Dedicated and detail-oriented professional with a demonstrated history of fostering cross-functional collaboration and adeptly navigating complex scenarios. As a Canadian, I possess exceptional communication skills and a keen aptitude for acquiring new languages.
 
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=RoksanaShiran)](https://github.com/RoksanaShiran/github-readme-stats)
 # 👩🏽‍🏫 Education  
 - University of Bern                                                                   2023 – Pre   
 PhD. Health Science Human  
