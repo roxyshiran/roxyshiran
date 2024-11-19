@@ -5,7 +5,7 @@ Dedicated and detail-oriented professional with a demonstrated history of foster
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
 
-
+![roxyshiran gaming room - gif of my actual gaming room setup](https://github.com/roxyshiran/RoxyRepo/raw/main/rox.webp)
 
 
 # 👩🏽‍🏫 Education  
