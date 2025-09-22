@@ -70,7 +70,7 @@ Islamic Azad University of Tehran
 
 
 
-## 👩🏽‍💻 Work Experience
+## 👩🏽‍💻Skill
 
  •	R Studio, Python
 
